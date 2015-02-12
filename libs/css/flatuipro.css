@@ -4996,6 +4996,11 @@ a.list-group-item > .badge,
   margin-right: 15px;
   margin-top: 15px;
 }
+/* Add margins from the sides of the alerts */
+.alert-addmargin{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 @media (max-width: 767px) {
   .alert .btn {
     display: block;
@@ -5019,11 +5024,12 @@ a.list-group-item > .badge,
   color: #3498db;
 }
 .alert-warning {
-  background-color: #f9f8f3;
-  border-color: #ebece8;
+  background-color: #fde3a7;
+  border-color: #bdaa7d;
+  color: #3D3620;
 }
 .alert-warning .alert-link {
-  color: #f1c40f;
+  color: #68BEFD;
 }
 .alert-danger {
   background-color: #f8f5f5;
