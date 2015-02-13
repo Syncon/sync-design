@@ -1834,8 +1834,8 @@ fieldset[disabled] .input-group.focus .input-group-btn .btn-default.active {
 
 .input-group-btn .btn-green {
   color: #ffffff;
-  background-color: #2ecc71;
-  border-color: #2ecc71;
+  background-color: #17a78b;
+  border-color: #17a78b;
 }
 
 .input-group-btn .btn-green:hover,
@@ -1845,35 +1845,35 @@ fieldset[disabled] .input-group.focus .input-group-btn .btn-default.active {
 .input-group-btn .btn-green.active,
 .input-group-btn .open > .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #58d68d;
-  border-color: #58d68d;
+  background-color: #48c9b0;
+  border-color: #48c9b0;
 }
 .btn-green:active,
 .btn-green.active,
 .open > .dropdown-toggle.btn-success {
-  background: #27ad60;
-  border-color: #27ad60;
+  background: #16a085;
+  border-color: #16a085;
 }
 .btn-green.disabled,
 .btn-green[disabled],
-fieldset[disabled] .btn-success,
+fieldset[disabled] .btn-green,
 .btn-green.disabled:hover,
 .btn-green[disabled]:hover,
-fieldset[disabled] .btn-success:hover,
+fieldset[disabled] .btn-green:hover,
 .btn-green.disabled.hover,
 .btn-green[disabled].hover,
-fieldset[disabled] .btn-success.hover,
+fieldset[disabled] .btn-green.hover,
 .btn-green.disabled:focus,
 .btn-green[disabled]:focus,
-fieldset[disabled] .btn-success:focus,
+fieldset[disabled] .btn-green:focus,
 .btn-green.disabled:active,
 .btn-green[disabled]:active,
-fieldset[disabled] .btn-success:active,
+fieldset[disabled] .btn-green:active,
 .btn-green.disabled.active,
 .btn-green[disabled].active,
-fieldset[disabled] .btn-success.active {
+fieldset[disabled] .btn-green.active {
   background-color: #bdc3c7;
-  border-color: #2ecc71;
+  border-color: #1abc9c;
 }
 
 
@@ -8568,3 +8568,12 @@ input.todo-search-field::-webkit-input-placeholder {
     margin-right: 40px;
     border-top: 2px solid #bdc3c7;
 }
+/* Makes table fixed width with only one column resizebleƒ */
+.table-fixed
+{
+  table-layout: fixed;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+
+}
+
