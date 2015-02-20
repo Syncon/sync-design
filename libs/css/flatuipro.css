@@ -1348,7 +1348,7 @@ label {
 .form-control:focus,
 .form-group.focus .select2-search input[type="text"],
 .select2-search input[type="text"]:focus {
-  border-color: #1abc9c;
+  border-color: #3498db;
   outline: 0;
   box-shadow: none;
 }
@@ -1872,8 +1872,8 @@ fieldset[disabled] .input-group.focus .input-group-btn .btn-default.active {
 }
 .input-group-btn .btn-default {
   color: #ffffff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #3498db;
+  border-color: #3498db;
 }
 
 .input-group-btn .btn-default:hover,
@@ -1883,14 +1883,14 @@ fieldset[disabled] .input-group.focus .input-group-btn .btn-default.active {
 .input-group-btn .btn-default.active,
 .open > .dropdown-toggle.input-group-btn .btn-default {
   color: #ffffff;
-  background-color: #48c9b0;
-  border-color: #48c9b0;
+  background-color: #5dade2;
+  border-color: #5dade2;
 }
 .input-group-btn .btn-default:active,
 .input-group-btn .btn-default.active,
 .open > .dropdown-toggle.input-group-btn .btn-default {
-  background: #16a085;
-  border-color: #16a085;
+  background: #2c81ba;
+  border-color: #2c81ba;
 }
 .input-group-btn .btn-default.disabled,
 .input-group-btn .btn-default[disabled],
@@ -1911,10 +1911,10 @@ fieldset[disabled] .input-group-btn .btn-default:active,
 .input-group-btn .btn-default[disabled].active,
 fieldset[disabled] .input-group-btn .btn-default.active {
   background-color: #bdc3c7;
-  border-color: #1abc9c;
+  border-color: #3498db;
 }
 .input-group-btn .btn-default .badge {
-  color: #1abc9c;
+  color: #3498db;
   background-color: #ffffff;
 }
 .input-group-hg .input-group-btn .btn {
@@ -5995,17 +5995,17 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   border-width: 2px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #34495e;
+  color: #bdc3c7;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #1abc9c;
+  color: #5dade2;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #1abc9c;
+  color: #5dade2;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
