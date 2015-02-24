@@ -8575,6 +8575,18 @@ input.todo-search-field::-webkit-input-placeholder {
   text-overflow: ellipsis;
 
 }
+/*Header for rolling modal at filesync page*/
+.filesync-header
+{
+border-bottom: 2px solid #ebedef;
+min-height: 80px;
+display: table;
+}
+.cell-align
+{
+display: table-cell;
+vertical-align: middle;
+}
 
 /* @@@@@@@@ Add new button style for input adding file url @@@@@@@@ 
 

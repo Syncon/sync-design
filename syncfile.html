@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <link data-turbolinks-track="true" href="./libs/css/flatuipro.css?body=1" media="all" rel="stylesheet">
-  <script data-turbolinks-track="true" src="./libs/js/jquery.js"></script>
-  <style type="text/css">
-  </style>
-</head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script data-turbolinks-track="true" src="./libs/js/jquery.js"></script>
+    <script data-turbolinks-track="true" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link data-turbolinks-track="true" href="./libs/css/flatuipro.css?body=1" media="all" rel="stylesheet">
+    <style type="text/css"></style>
+  </head>
 <body>
+<div class="container">
 <div class="row">
-  <div class="col-md-12 text-center">
-    File is ready to be synchronized with your Dropbox (Google Drive)
+  <div class="col-xs-8 col-xs-offset-2 filesync-header">
+    <div class="cell-align">
+      <h4>Synchronizing File Title</h4>
+    </div>
+    <div class="cell-align">
+      <button type="button" class="close fui-cross"></button>
+    </div>
   </div>
 </div>
-
-<div class="row">
-  <div class="col-md-1 col-md-offset-2 col-xs-12 vcenter">
-    <img src="./libs/img/file.png" alt="File" class="img-responsive center-block">
-  </div><!--
---><div class="col-md-7 vcenter col-xs-12 text-center">
-    <h6>File name long with spaces to test the design responsivness.jpg</h6>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-md-2 col-md-offset-5 text-center">
-    <a class="btn btn-primary btn-wide">
-      <span class="fui-check-circle text-left"></span>
-       Add to Dropbox
-    </a>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-xs-8 col-xs-offset-2">
+      <div class="row">
+        <div class="col-xs-6">
+          <p><small>Site: Youtube </br>
+          Filename: Yourfilename.mp4</small></p>
+        </div>
+        <div class="col-xs-6">
+          Sync to Dropbox:
+          <table class="table">
+            <tr>
+              <td><span class="fui-video"></span></td>
+              <td>mp4</td>
+              <td>138 Mb <a href="#fakelink" class="btn btn-xs btn-info">Sync</a></td>
+            </tr>
+            <tr>
+              <td><span class="fui-video"></span></td>
+              <td>mp4</td>
+              <td>138 Mb <a href="#fakelink" class="btn btn-xs btn-info">Sync</a></td>
+            </tr>
+          </table>
+        </div>
+    </div>
+    <div class="row">
+    <div class="modal-footer">
+      <div class="col-xs-1 col-xs-offset-10">
+        <a href="#fakelink" class="btn btn-info">Done</a>
+      </div>
+    </div>
   </div>
 </div>
 </body>
