@@ -1,71 +1,94 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="223px" height="281px" viewBox="0 0 223 281" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
-    <title>teleport 2</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="49.9950628%" y1="-2.21492958e-09%" x2="49.9950628%" y2="100.003942%" id="linearGradient-1">
-            <stop stop-color="#FFFFFF" stop-opacity="0.3" offset="0%"></stop>
-            <stop stop-color="#FCFEFF" stop-opacity="0.2771" offset="22.95%"></stop>
-            <stop stop-color="#F4FBFD" stop-opacity="0.2627" offset="37.28%"></stop>
-            <stop stop-color="#E5F5FB" stop-opacity="0.2507" offset="49.25%"></stop>
-            <stop stop-color="#D1EDF9" stop-opacity="0.2401" offset="59.93%"></stop>
-            <stop stop-color="#B6E2F5" stop-opacity="0.2303" offset="69.74%"></stop>
-            <stop stop-color="#95D5F0" stop-opacity="0.2211" offset="78.92%"></stop>
-            <stop stop-color="#6EC6EB" stop-opacity="0.2124" offset="87.61%"></stop>
-            <stop stop-color="#42B5E5" stop-opacity="0.2043" offset="95.7%"></stop>
-            <stop stop-color="#27AAE1" stop-opacity="0.2" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="teleport" sketch:type="MSLayerGroup">
-            <path d="M91.8,112.4 L146.1,91.5" id="Shape" stroke="#E6E7E8" stroke-width="2" fill="#D1D3D4" sketch:type="MSShapeGroup"></path>
-            <path d="M151.8,70.4 L122.7,35" id="Shape" stroke="#E6E7E8" stroke-width="2" fill="#D1D3D4" sketch:type="MSShapeGroup"></path>
-            <path d="M88.7,130.4 L120.8,155.9" id="Shape" stroke="#E6E7E8" stroke-width="2" fill="#D1D3D4" sketch:type="MSShapeGroup"></path>
-            <path d="M48.9,152.8 C48.7,152.8 48.6,152.8 48.6,152.9 C48.5,153 48.5,153.1 48.5,153.2 L48.5,153.6 L49.4,153.6 L49.4,153.2 C49.4,153 49.4,152.9 49.3,152.9 C49.2,152.9 49.1,152.8 48.9,152.8 L48.9,152.8 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <g id="Group" transform="translate(76.000000, 208.000000)">
-                <g>
-                    <image id="Bitmap" sketch:type="MSBitmapLayer" x="0.6635" y="0.5871" width="69.6" height="34.56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASQAAACSCAYAAADsHbcwAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAuIwAALjEBAFFPpQAAFhpJREFUeAHtnYl24zByRbsz+0ySmfz/TyaZfe3BpXXVzzApySLt9vLqHKhAEACJR+C6QNndX77UqkAVqAJVoApUgSpQBR4r8PXx4esdffv27Ydd+95Rfv369du9bduuClSB6wq8OBQugOfFr319+M+usQqkgurZOrZBFVhV4EWgMEEor7GVX725N1g4A8lj/ZfC6Q0+td7Su1EgAbHrpjcgRP8m+vd6+iwj/5ZN6Kx5yh6VF0xv+VH23t6qAgmGu+4xQGRf+FsT17TdXdd/pUaPYDOuyfG/Tl4YecwtWdaICTVqVeBGBX56Y73VaicYCZSE0H+MBhzjt/LWp2/7IP8WTcDogc+cGAPnKT/b0KhQOqvRTBW4rMBdIJiiIsGCF0D4n5yOZ591bMtd3nUvNHxhAzKYsBFE/xxl5PFzolx4Lb5buKFIrQpcUeDZEdIKjIyAEjz0yzE+85RZTzC9ZShtwegfYxxACP/3kydPYlwC6hwtNVIaqtSqwBUFngWkE4wEiF7I6H82rjknrkNZAiqBRB57a1GSQDIqwgse/N8iASaO8WoDmGz7BShhjZYWGfpRBZ4ocDOQVmAERISQwBFEvxjnfj6SnjzpEpSEkX5U/6EmjPBCJaMi4PPXU/rLyaMDZUBJMNEGow9sSPltMKm/ZPkgRz+rwHcFbgLSBRgliAQQEPrlSL86eY/XoGSU9JYjpAQSUZGREOABRKQ/RwLSnDNK0hst0R9QaqQ0hKhVgVTgKpBOMLINi8vISBgBHKEDhEi/njyAIgkl2pIuAelHRUpGRuP2zi+miW4yOhJGgOhPp2QEaNTo2OZxGCktW7hGSkO9WhU4KXAVSKd6/pRfg5HREBD6zUj/efLkSZQLJMDFwl0DkgtXP6r9UBNMa9s1gQSM/jjSH0ZibJe2pLmFcxtXKA3RalVABS4Cadqq+ROfNiw8FqDRkCD6r1FGAkomgCSULkVICaLMj+avbsJo2V6Nq69FSEZHuTX1HdpalMSYgJIm6BYoUdhoSWnqP6sCm0CaYMRiyugIsBgZAR4g9N9TEkzAykXrtmaOkOg/IZT5cerVTSBxYcGB9x1SRkhbY2OMQhzvGPVGSfSLDcn7svtBin5+VgU2gTQJkjAyOgJIRkbA6Hen9NvhSQkk6rpdc1szL9ZR5U1AKWFkXigJJL5h42X2PC7Hhq5ESTnGzAslfF92DxFqVQAFVoE0RUcuJBYY9YlygIvvjITR/4yyhBLl+Q4pt2u5WFmUmH7OLydf+UMQcVnyJKDki22AJIwStAkkoeT2DZ8gQtd5CzeKllCp27dFiX58NgVWgTSJwCJi8bCgWHBu1wASUZDbNaIioEQCRpQDJBYuKRerkMsFOqqcLeF0LnzFTAKJyxohCSXhyphyXOhpShCZd9x6+sYYL7BzG9eX3ahS+3QKXAOSC4cFRV0Wny+zc7sGjOboiHdL+TLbhWqfbxVG47YXSyjNUZJj2fICKL3jTq8Gc6QE+Pqy++E59PMTKcCCemTTdo0FwwISSG7X8ts1IySiIiMjYASwqAfAjCJcjC5E/JZdOrfV5ojyBFH2RzmgSMhkXp2ybCuvDvjUgrxR0gKlcdyX3UOE2udQ4AmQYtguFBcaUHG7JpD8at9v2jwWRmzVaMN1chGOwzf1zoj72bIEFGMAFDmWzAOg+Zgyxp9wyjqZV3PBxLWW6GxQqe+Vhhi1j63ANSC5WFxURkiAxpfabt3wlPk1eMIoFyqLDdM/HL3dT+8TMJC/lFKvBNC1fPZJH/MWblGnUFpk6McHVuARkFa2aywUFohAyndIgMdIKUGU3zrRP8mFSn9a5i17L57xJETUyXLHi78GI85nffIa/bKFI1JatnBACesvUS4y9OODKfAISDG2XGwuKuq6bQM6REBCiTxlM4xysdEnpn84ej+fed/kcyvHcaYZMJegNNfl2L4yUkKpZfuGF0wU1qrASyjwI37obQHJ8QkjFtQakBJCbOd8eU1dF5qLiz7Jv3djDG7fEh6OU+/4U8NLYEp4Z1vy/EKmvxZwhtJJyATjqaiuCuxXYOuH3kuCagtILCoWgosrgWSUBIDmJJBcULZHHfIfxeaxMF4MPR1zevXQCybqm5+9dfVES/R5ftE98sJIP4pqVeAwBXJenfMJqqPhtAUkR8QCcEG4YGhDAj4CKBeW9XNBkv+I5rj08xjVQq+Gl7x18dTTkzdSmqF0nizzDfS4CtyhQM4n8/gneeF0FJguAUmgzAtEIM3exUN9296hxbtrwlh5UIwbc+xrftYywZRQT22pwx/zkoiS3LollEbxebKQr1WBPQrM4BFGm/4oMDHxFxsdzguIcstcSLmAMu95vG3SL9f4wB+MVSj5MBluakA+dSKvhlswopwolH/qhO2x/2a337zNE2RUqVWBXQo4f51b/uDDZ+K856w7MPLQ/N6I6QykjSHMC2ptUeUiy/obXX7YYsbO01Cj1CLzqZdA0vM8TG6J/eLAf7e7UdKHnUI/fGAPNHmYx+QTQOT9QWiU7rFgwi8GmO6B0iUgsYg0FxmLKfMurlxw2c72n8XPY0cfDJ1njThWP3xCCRgREQEjf72CKIltG1HS2rukUdxtGyLU7lLgEowAj3MOnynhxIXpZ+nrHihdAhKdu4gyb9nsqZPm+Sz7LHnGjukfjr5/JojWYJRA4ne9+Gdy14DEZDhPgFN+uFoVeLYCAimjHfIJH/K+NiBSz8Q8Fk53R0rXgDSusVgurDnPcaZTk0/v0ISHzIPCUqPMJ5x4HiSBRHTkn+hcA5ITajSpVYFnKeDcwZMACsnISPAAI6N0v2jBM4epw7zW7oLSrUDiIi6iOe8N1D9VAM14wDwwHzq11FLPebZsCSS2a/5pDjASSDx4flL508hJNIoeXYPjWhW4VQHnpzDCGx0BImGU//UXeeesoHJOOz+X69+6fXsOkJaOxwcX1DKfZWvlnv9sHi142HjAg58T5SbARITk+yMiJF9o89ABkg8bn0Aah7UqcLMCQogG5gUScyuBxNxjHvKD0f/6Cy+QnL/O7XFqMfpZ7BYo3QMk+9d7A3rL678rgDZpPDwM/dXNB0qZWzajJH/6GDoLJGGkp89aFXiuAsIIL5CMkJhzREdGRvlff/HFC3OVOev8HdnFnJP2+VB45du3e4HkIjpdu+5GBQRTerX0gbp1E0pMBkGUW7WMjpxQN95Gq1WBswI5d4SHUGK+JZCMjniV4B/UM0+Zs87fkV21c6S0evZUeC+QLvXZc5cVAEA8eB5gToYEk1DiJxATYgbRDKPsZ1SvVYGbFci5Q56UQGLuGSHNQGJ+whDmq/PXPtY8/V789+ILJBR6fRNKeMDkw/RYIAEeHjrexEOdH/YoqlWBZyvAPNLM4wUSc84oyXdIbNmIjoSR83cULebctA+95Q+VNrZuBdJJxR/gEkpc3p8yPGAeIp4yHyjeyZIPl3ytCtyrQM4f83jmm0DKKIn3mr43MjpirmLZjrbz3OU85ZtWIG1K8yongFIaD5aHZqRE3odsXk878rUqsEeBeQ45v/AJJV4dEBUZGcGOLRABsExAiOT83oRSgTRUegM2R0sec2tMDB+kx+nJ16rAHgW2oGSEA0AyKmI+kvyBmuByi7f2RYz9Le3Wfg2gQNrzGI9t68O1V6FkuZNGb736KnCvApfmEudIQoTXBybmpPNSGAEtv5HjfZOJF+Ik2gox5/YoemwF0mM93sKRD5rJYJ77Mn9pEr2F++89vG8Fcn6RByJAZ46KGCXnAVG+Y/KXJ9MTXeW3xfS3agXSqixvolAA5c0wAdbKs07zVWCPAjm/hBNlmeifc4DFLZrfwvGrAfwxOMlv4/J3lR71M2/bCqSh2juynCzv6LZ7q+9QgfzhN2+1AIxbNSIfYOTfXeLzFyd9Ce6Wbe5rVP9uBdJ3LZqrAlXguwL+8EswUQZYKIMdgAngEAmtJc5Rh7oCyQhpFD21AumpJi2pAlXguwKCiRKiGwwPYOAH0CHx+0mZhNEMpIyQRpPH5gUel/aoClSBKvBUAaMbgQSUBBPgMWIy/ywYcbkCCRVqVaAKXFMgIyXBJJD0RExz4hycMWU/T65ZID2RpAVVoApcUEAYpRc2eOGUZeZtQ/fmv45v2sgvRsVaFagCVeAWBc7gGJUFirC55ue2q9crkFZlaWEVqAIbCgii+TTl8MTzs6e+ZeRXrUBalaWFVaAK3KiAkNnydsP5q1YgXZWoFapAFXimAsKJZpm/2k2BdFWiVqgCVWBFgS3QZCSU+ZUunhYVSE81aUkVqAK3KyCY9Le3XKlZIK2I0qIqUAV2KXA3nAqkXbq3cRWoAkcqUCAdqWb7qgJVYJcCBdIu+dq4ClSBIxUokI5Us31VgSqwS4ECaZd8bVwFqsCRChRIR6rZvqpAFdilQIG0S742rgJV4EgFCqQj1WxfVaAK7FKgQNolXxtXgSpwpAIF0pFqtq8qUAV2KVAg7ZKvjatAFThSgQLpSDXbVxWoArsUKJB2ydfGVaAKHKlAgXSkmu2rClSBXQoUSLvka+MqUAWOVKBAOlLN9lUFqsAuBQqkXfK1cRWoAkcqUCAdqWb7qgJVYJcCBdIu+dq4ClSBIxUokI5Us31VgSqwS4ECaZd8bVwFqsCRChRIR6rZvqpAFdilQIG0S742rgJV4EgFCqQj1WxfVaAK7FKgQNolXxtXgSpwpAIF0pFqtq8qUAV2KVAg7ZKvjatAFThSgQLpSDXbVxWoArsUKJB2ydfGVaAKHKlAgXSkmu2rClSBXQoUSLvka+MqUAWOVKBAOlLN9lUFqsAuBQqkXfK1cRWoAkcqUCAdqWb7qgJVYJcCBdIu+dq4ClSBIxUokI5Us31VgSqwS4ECaZd8bVwFqsCRChRIR6rZvqpAFdilQIG0S742rgJV4EgFCqQj1WxfVaAK7FKgQNolXxtXgSpwpAIF0pFqtq8qUAV2KVAg7ZKvjatAFThSgQLpSDXbVxWoArsUKJB2ydfGVaAKHKlAgXSkmu2rClSBXQoUSLvka+MqUAWOVKBAOlLN9lUFqsAuBe4F0rdxVVKtClSBKnCYAvcCKW9AOOnzXPNVoAp8PgXuZsE9QMrIKPPKfvfN2EF9FagC70YB17t+140/B0h5wczvuoE2rgJV4F0qsMUAyrXMW3bR3wqk7HjOc5zp4gV7sgpUgQ+vgDxgoJm/OvBrQMrOzG/5+WLWm8t7XAWqwMdRwHWe3tFRpmXesif+EpCyA/L/OqXMZxnlpicXakEVqAIfQoGtNW45fo0LDN46m0JcAlJ2YEd5MS+aPut5UcpqVaAKfDwFrvFgZoMKbDLhDKSvX78mTGxgmR3/c/Ro+kfkPY+3jd6bqK8CVeB9KyAXGIXrG+/6lw14y9Lb5lH7E3so+3IG0nL0+MPG2SEXAkRbyRuiDe21zFtWXwWqwPtTYIsLyYY5nwy5yILnAEkI/X1oaPpb5D0/X/ziDby/59E7rgKfUgFBhHeNG4AkgGSDPMBz3jb2syriFpBspPfCXuyvo7c5ASdvIm+AG7Gf1ZtoYRWoAm9aAdYv5joWLqxzmcD6nxPnZiBd5MFPR4M1ywsLI2HDRYHRXyIlnH42yn8yErD7ekoOaBwuRnmtClSBt61ArlshhIcJ8EAYuf5hgmzAw4qEklzJfkeV77YFJGvQMG8gYfTncY70p1P61fC/GAkg0W9CiX4AlJDKGyqchjC1KvBGFMi1yS1xTBJIBiaARh4IIYAEEwTTDCR3TvY5qj62R0Dibfcwa+RNGJp5A1wQEP1xpF+PBIx+OVLCSNDQD9fxJoTSKFoiqPMFKahVgSrwwxVwTbpmhZGRUXLAoAQWkOCCwQqcSCjRj30uPr9hG+cWUODXzIbehEQURkDoDyMBIiKjn480R0aj6HwDCSW3ckKLeth8/FDazypQBV5SAdZ6mseCSE90BGBgQIIIDpgEE+fdttEOjpCE0sg+tUcR0nRaINGBUMqb4cKAyLQVHTkY+uB6bt3mSGmc2rSCalOanqgCNysgaLYaeB7vutX7zsjtGesfCP0+klAySroUIY1mT+0JkKZtGzcDDIBJRkjAJxP9+M5oZM9RkSBjMEZQCSX6zkTbtIIo1Wi+ChyjgODJ3iizXAjhcw0bkAAcYfR/I0/6/1OiHFhlhAQ76If+vM63ebs2zl3csnHext4UNwR4gIpAShgJENrZRrICJKEkvIyWtqBkf6NprQpUgYMUEDx25zrXCyK865e1T3TkVg3wAKH/PSWhRMSUQEoY0R9p04DJE7sSJQET0wwU+nIwORC/gQNIubUTTICHvrCEUOYfzvazClSBvQokkMyzbskLjQwohJHvjtyaJZAAE8drERIsoD+vNbLrtgqkqao3SYdAg5sTRHqbzDByv8k3cfPL74ys7EcA6e13Pra8vgpUgdsVmIHgsWt8DUb5qsYvtBJIbtmMkDhHFOX7I2Fk31xrdbvGMDaBtBEl0TlwAEp403KRccxFMzKSqAIJKGWUxPWFEd7+8FrmLauvAlXgPgWEEK1dt3iB4RrOdcx6dy37/iihlC+2c7tGuwTSOLxsm0BaacaNbpkDI4qCqCT3m9zgDCTfJRkl5dZNKI1mixVIKlFfBfYrcAlIrF8SEEkgudPx/dEMJda4aSs6khGb0dHoYztC4uQUJVEElAAEN5ugoHweiETNX5z095UyShJGRkoJpLzGuEStClSBAxQQSkKC9WvKdUyEQxJIrmmARAJC5gURdefIiL6Xa619szbOne1qhLQCJW5YmwfkYLghb97f4na7BowyQlrbttF/wijznKtVgSrwfAUEES3N44UR3ugoIyTXM2vaBICEEGWAiOQOCRaQzjAa+at2FUj0sAElYaTnwmtAIiqaYeQ3bW7ZjI58j7Rclo9aFagCL6LAFpBcwwLJl9pGSoInPecEEe1mGC0DuBYdUekmIFFxBUoASJOyDsZ3SJDTiMht2gyj3LK5XTMi0nud+ipQBfYrkDDKgMKgwnVstCRw0ptnrVtPEOHtd/G3wIhh3QwkKm9AKS/sgLhB+uam8QkhjkmAKGFkdCSE9KNarQpUgYMVYN1irl/WrkmwGO3gEzyZt66e/ujHfhdujOOb7K5FP/5FANrZFi9M8IImfQIoy6mfbbPPcapWBarACyqQUBIiM5QEzSVvGyGkfxaMGKcAePaYT1CyD/oxJWAElOCZI6Ks673on31PbVAFqsCzFbgEJUEDjMyveQF07uvWLdp8t7sX/0q0JJjwAse8x/qsSx7TPxz1swpUgZdU4AyRcZEEC3ngozfv8VyXe6Ts2VERbbRDFn9ES/QrZDJv2eyzjnl8rQpUgddTYAHJuJyQ4crmt3zWIb8LREsH9GHmKB9wsu9bPbdg3aNup/1UgSpwXQGBRE3zN/l7t2Zbt/RiAAgwee28VuY5Px/bpr4KVIHXU0AIecU8zvwh0ZAXSf9qIFgB1A+5j7xo81WgCjxS4BF08szRkVD2nflXA1JedM5fgdVcvcdVoAq8gAKvBZ0XuPV2WQWqQBWoAlWgClSBD6zAvwHiLKMGEl8iVwAAAABJRU5ErkJggg=="></image>
-                    <path d="M62.7,9.1 L25.5,9.1 L18.9,3.6 L8,3.6 C5.6,3.6 3.6,5.6 3.6,8 L3.6,27.7 C3.6,30.1 5.6,32.1 8,32.1 L62.7,32.1 C65.1,32.1 67.1,30.1 67.1,27.7 L67.1,13.5 C67.1,11 65.2,9.1 62.7,9.1 L62.7,9.1 Z" id="Shape" fill="#FEEAAB" sketch:type="MSShapeGroup"></path>
-                </g>
-                <g id="Clipped" fill="#FFFFFF" sketch:type="MSShapeGroup">
-                    <g id="Group">
-                        <g id="Shape">
-                            <path d="M69.8,13.2 C69.6,12 69.4,10.3 68.6,9.4 C67.5,8.1 66.3,7.4 64.8,6.6 L63.4,6.6 L63.4,6.4 L26.7,6.4 C24.2,4.8 22.4,2.5 19.7,1.1 L18.3,1.1 L18.3,0.9 L7.6,0.9 L7.6,1.1 L6.2,1.1 C5,1.7 3.7,2 2.8,3.1 C2.4,3.6 1.9,4.2 1.6,4.8 C1.4,5.3 1.5,5.9 1.1,6.4 L1.1,6.6 C1.1,7.3 0.9,7.7 0.9,8.4 L0.9,10.3 L0.9,13.9 L0.9,21.3 C0.9,23.8 0.8,26.4 1.1,28.7 C1.5,31.7 3.7,33.5 6.6,34.6 L8.3,34.6 L8.3,34.8 L62.3,34.8 L62.3,34.6 L64,34.6 C65.5,34.1 67.1,33.6 68.1,32.3 C69.1,31.1 69.3,29.9 69.5,28.5 C69.6,27.9 69.7,27.3 69.7,26.6 L69.7,24.7 L69.7,20.9 C69.8,18.4 70.1,15.6 69.8,13.2 L69.8,13.2 Z"></path>
-                            <path d="M62.7,9.1 L25.5,9.1 L18.9,3.6 L8,3.6 C5.6,3.6 3.6,5.6 3.6,8 L3.6,27.7 C3.6,30.1 5.6,32.1 8,32.1 L62.7,32.1 C65.1,32.1 67.1,30.1 67.1,27.7 L67.1,13.5 C67.1,11 65.2,9.1 62.7,9.1 L62.7,9.1 Z"></path>
-                        </g>
-                    </g>
-                </g>
-            </g>
-            <path d="M147.5,225.8 L75.3,225.8 L0,0 L222.8,0 L147.5,225.8 Z" id="Shape" fill="url(#linearGradient-1)" sketch:type="MSShapeGroup"></path>
-            <path d="M74.2,222.5 L148.5,222.5 L145.2,237.8 L77.5,237.8 L74.2,222.5 L74.2,222.5 Z" id="Shape" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
-            <path d="M75.3,225.8 L147.5,225.8 L147.5,241.1 L75.3,241.1 L75.3,225.8 L75.3,225.8 Z" id="Shape" fill="#EBEEEE" sketch:type="MSShapeGroup"></path>
-            <path d="M74.2,229.1 L148.6,229.1 C151,229.1 153,231.1 153,233.5 L147.5,276.2 C147.5,278.6 145.5,280.6 143.1,280.6 L79.7,280.6 C77.3,280.6 75.3,278.6 75.3,276.2 L69.8,233.5 C69.8,231.1 71.8,229.1 74.2,229.1 L74.2,229.1 Z" id="Shape" fill="#EFC84A" sketch:type="MSShapeGroup"></path>
-            <path d="M111.4,236.7 C101.7,236.7 93.9,244.5 93.9,254.2 C93.9,263.9 101.7,271.7 111.4,271.7 C121.1,271.7 128.9,263.9 128.9,254.2 C128.9,244.5 121.1,236.7 111.4,236.7 L111.4,236.7 Z M111.4,268.5 C103.5,268.5 97.2,262.1 97.2,254.3 C97.2,246.4 103.6,240.1 111.4,240.1 C119.2,240.1 125.6,246.5 125.6,254.3 C125.6,262.1 119.2,268.5 111.4,268.5 L111.4,268.5 Z M112.5,247.3 C111.9,246.3 110.9,246.3 110.3,247.3 L104,253.6 C103.4,254.6 103.9,255.4 105.1,255.4 L108.1,255.4 L108.1,260.9 C108.1,261.5 108.6,262 109.2,262 L113.6,262 C114.2,262 114.7,261.5 114.7,260.9 L114.7,255.4 L117.7,255.4 C118.9,255.4 119.4,254.6 118.8,253.6 L112.5,247.3 L112.5,247.3 Z" id="Shape" fill="#D8B442" sketch:type="MSShapeGroup"></path>
-            <g id="Dropbox" transform="translate(116.000000, 148.000000)" sketch:type="MSShapeGroup">
-                <path d="M18.1,0.5 C28,0.5 36,8.5 36,18.4 C36,28.3 28,36.3 18.1,36.3 C8.2,36.3 0.2,28.3 0.2,18.4 C0.2,8.5 8.2,0.5 18.1,0.5 L18.1,0.5 Z" id="Shape" fill-opacity="0.5" fill="#3498DB"></path>
-                <path d="M18.1,1.5 C27.5,1.5 35.1,9.1 35.1,18.5 C35.1,27.9 27.5,35.5 18.1,35.5 C8.7,35.5 1.1,27.9 1.1,18.5 C1.2,9 8.7,1.5 18.1,1.5 L18.1,1.5 Z" id="Shape" fill="#FFFFFF"></path>
-                <path d="M18.1,2.4 C26.9,2.4 34.1,9.6 34.1,18.4 C34.1,27.2 26.9,34.4 18.1,34.4 C9.3,34.4 2.1,27.2 2.1,18.4 C2.1,9.6 9.3,2.4 18.1,2.4 L18.1,2.4 Z" id="Shape" fill="#3498DB"></path>
-                <path d="M8.1,19.4 L14,23.1 L18.1,19.8 L12.2,16.3 L8.1,19.4 L8.1,19.4 Z M14,9.4 L8.1,13.1 L12.2,16.2 L18.1,12.7 L14,9.4 L14,9.4 Z M28.1,13.1 L22.2,9.4 L18.1,12.7 L24,16.2 C24,16.3 28.1,13.1 28.1,13.1 L28.1,13.1 Z M18.1,19.8 L22.2,23.1 L28.1,19.4 L24,16.3 C24,16.3 18.1,19.8 18.1,19.8 L18.1,19.8 Z M18.1,22.4 L13.9,25.3 L12.1,24.3 L12.1,26.4 L18.1,29.4 L24.1,26.4 L24.1,24.3 L22.3,25.3 L18.1,22.4 L18.1,22.4 Z" id="Shape" fill="#FFFFFF"></path>
-            </g>
-            <g id="Vimeo" transform="translate(55.000000, 99.000000)" sketch:type="MSShapeGroup">
-                <path d="M19.1,0.6 C29.7,0.6 38.3,9.2 38.3,19.8 C38.3,30.4 29.7,39 19.1,39 C8.5,39 7.10542736e-15,30.4 7.10542736e-15,19.8 C7.10542736e-15,9.2 8.5,0.6 19.1,0.6 L19.1,0.6 Z" id="Shape" fill-opacity="0.5" fill="#E67E22"></path>
-                <path d="M19.1,1.7 C29.1,1.7 37.2,9.8 37.2,19.8 C37.2,29.8 29.1,37.9 19.1,37.9 C9.1,37.9 1,29.8 1,19.8 C1,9.8 9.1,1.7 19.1,1.7 L19.1,1.7 Z" id="Shape" fill="#FFFFFF"></path>
-                <path d="M19.1,2.7 C28.6,2.7 36.2,10.4 36.2,19.8 C36.2,29.3 28.5,36.9 19.1,36.9 C9.7,36.9 2,29.3 2,19.8 C2,10.4 9.7,2.7 19.1,2.7 L19.1,2.7 Z" fill="#E67E22"></path>
-                <path d="M9.5,16.6 C11.1,15.3 13.4,12.5 15.1,12.5 C16.9,12.5 17.3,14.6 17.5,16.5 C17.7,18.4 18.4,22.6 19.4,22.6 C20.3,22.6 22.5,18.9 22.4,17.5 C22.3,16.1 20.7,16.3 19.9,16.7 C20.7,13.9 22.5,12.4 24.8,12.4 C27.1,12.4 27.7,14 27.7,16 C27.7,19.1 21.5,28.4 17.8,28.4 C15.5,28.4 14.9,25 14.4,23.3 C13.9,21.6 13,17.2 11.9,16.9 C11.5,16.8 10.3,17.8 10.3,17.8 L9.5,16.6 L9.5,16.6 Z" id="Vimeo-logo" fill="#FFFFFF"></path>
-            </g>
-            <g id="Evernote" transform="translate(144.000000, 65.000000)" sketch:type="MSShapeGroup">
-                <circle id="Oval" fill-opacity="0.5" fill="#2ECC71" cx="19.6" cy="19.8" r="19.5"></circle>
-                <circle id="Oval" fill="#FFFFFF" cx="19.6" cy="19.8" r="18.5"></circle>
-                <circle id="Oval" fill="#2ECC71" cx="19.6" cy="19.8" r="17.5"></circle>
-                <path d="M13.8,11.6 L13.8,11.6 L13.9,11.5 L13.9,11.4 L13.9,11.1 L13.9,10.2 L13.9,8.5 L13.9,8.5 C13.9,8.2 13.9,7.9 14,7.7 L10,11.7 C10.4,11.6 10.8,11.5 11.2,11.5 L13.8,11.5 L13.8,11.6 Z M29.4,11.3 C29.2,10.3 28.7,9.9 28.2,9.7 C27.6,9.5 26.5,9.3 25,9.1 C24.2,9 23.3,9 22.6,9 L21.6,9 L21.5,9 L21.5,8.9 C21.4,8.2 20.9,7.6 20.5,7.4 C19.7,7.1 18.8,7 17.9,7 C17.2,7 16.6,7.1 16.4,7.1 C16,7.2 15.5,7.5 15.2,7.9 C15,8.2 14.9,8.5 14.9,8.9 L14.9,10.4 L14.9,11.5 C14.9,12.1 14.3,12.5 13.7,12.5 L11.3,12.5 C10.8,12.5 10.4,12.6 10.2,12.7 C9.9,12.8 9.7,13 9.6,13.2 C9.3,13.6 9.3,14.2 9.3,14.7 L9.3,14.7 L9.3,15 C9.3,15.2 9.3,15.5 9.4,16 C9.4,16.3 9.6,17.7 9.9,19.1 C10.2,20.5 10.5,22.1 10.8,22.8 C11.1,23.3 11.2,23.5 11.7,23.8 C12.8,24.3 15.4,24.9 16.6,25 C17.2,25.1 17.6,25.2 18,25.2 C18.2,25.2 18.4,25.2 18.5,25.1 C18.6,25 18.8,24.9 18.9,24.6 L19.1,24 C19.5,22.8 19.5,21.7 19.5,20.9 C19.5,20.8 19.5,20.8 19.6,20.7 L19.7,20.6 L19.8,20.7 L20,21 L20,21.3 C20,21.7 20,22.2 20.2,22.8 C20.4,23.3 20.7,23.8 21.3,24 C21.8,24.2 23,24.4 24.3,24.5 C24.9,24.6 25.4,24.7 25.8,25.3 C26.2,25.8 26.4,26.7 26.4,28.2 C26.4,28.6 26.4,29 26.3,29.3 C26.2,29.6 26.1,29.8 25.9,30 C25.5,30.3 24.9,30.4 24,30.4 L23.7,30.4 C23.2,30.4 22.8,30.4 22.5,30.3 C22.2,30.2 21.9,30.1 21.8,29.8 C21.7,29.6 21.7,29.4 21.7,29.1 C21.7,28.6 21.9,28.3 22.2,28.2 C22.5,28.1 22.8,28 23.2,28 L23.6,28 L23.6,28 L23.6,27.8 L23.6,27.3 C23.6,27.1 23.6,26.9 23.7,26.7 C23.7,26.6 23.8,26.5 23.8,26.5 L23,26.5 C22,26.5 21.3,26.6 20.8,27 C20.3,27.4 20,28.1 20,29.5 C20,30.2 20.1,30.8 20.2,31.2 C20.4,31.6 20.6,31.9 20.9,32.2 C21.6,32.7 22.7,32.8 24.4,32.8 C25.8,32.8 26.7,32.8 27.4,32.3 C28.1,31.9 28.6,31 29.2,29.2 C29.4,28.5 30,26.3 30.3,22.6 C30.3,22.2 30.4,21.6 30.4,20.8 C30,17.6 29.7,12.7 29.4,11.3 L29.4,11.3 Z M26.6,19.7 C26.1,19.5 25.5,19.3 24.9,19.3 L24.7,19.3 C24.4,19.3 24.1,19.3 23.9,19.4 L23.7,19.4 L23.7,19.2 C23.7,18.8 23.8,18.4 24.1,18 C24.3,17.6 24.7,17.4 25.3,17.4 L25.4,17.4 C26.1,17.4 26.5,17.8 26.7,18.2 C26.9,18.6 26.9,19.1 26.9,19.5 L26.9,19.8 L26.6,19.7 L26.6,19.7 Z" id="Shape" fill="#FFFFFF"></path>
-            </g>
-            <g id="Youtube" transform="translate(97.000000, 8.000000)" sketch:type="MSShapeGroup">
-                <path d="M16.2,0.3 C24.6,0.3 31.5,7.1 31.5,15.6 C31.5,24.1 24.7,30.9 16.2,30.9 C7.7,30.9 0.9,24 0.9,15.5 C0.9,7 7.8,0.3 16.2,0.3 L16.2,0.3 Z" id="Shape" fill-opacity="0.5" fill="#D35400"></path>
-                <path d="M16.2,1.1 C24.2,1.1 30.7,7.6 30.7,15.6 C30.7,23.6 24.2,30 16.2,30 C8.2,30 1.7,23.5 1.7,15.5 C1.7,7.5 8.2,1.1 16.2,1.1 L16.2,1.1 Z" id="Shape" fill="#FFFFFF"></path>
-                <path d="M16.2,1.9 C23.7,1.9 29.8,8 29.8,15.5 C29.8,23 23.7,29.1 16.2,29.1 C8.7,29.1 2.6,23 2.6,15.5 C2.6,8 8.7,1.9 16.2,1.9 L16.2,1.9 Z" id="Shape" fill="#D35400"></path>
-                <path d="M15.9,13 C16.3,13 16.7,12.9 16.9,12.7 C17.1,12.5 17.3,12.2 17.3,11.9 L17.3,9.8 C17.3,9.5 17.2,9.2 16.9,9.1 C16.6,8.9 16.3,8.8 15.9,8.8 C15.5,8.8 15.1,8.9 14.9,9.1 C14.6,9.3 14.5,9.5 14.5,9.8 L14.5,11.9 C14.5,12.2 14.6,12.5 14.9,12.7 C15.1,12.8 15.4,13 15.9,13 L15.9,13 Z M15.4,9.8 C15.4,9.7 15.4,9.7 15.5,9.6 C15.6,9.6 15.7,9.5 15.8,9.5 C15.9,9.5 16.1,9.5 16.1,9.6 C16.2,9.7 16.2,9.7 16.2,9.8 L16.2,11.8 C16.2,11.9 16.2,12 16.1,12 C16,12.1 15.9,12.1 15.8,12.1 C15.7,12.1 15.6,12.1 15.5,12 C15.4,11.9 15.4,11.9 15.4,11.8 L15.4,9.8 L15.4,9.8 Z M18.7,13 C18.9,13 19,12.9 19.2,12.8 C19.4,12.7 19.5,12.6 19.7,12.4 L19.7,12.9 L20.5,12.9 L20.5,8.8 L19.7,8.8 L19.7,11.9 C19.6,12 19.5,12.1 19.5,12.1 C19.4,12.2 19.3,12.2 19.3,12.2 C19.2,12.2 19.2,12.2 19.1,12.1 C19.1,12.1 19,12 19,11.9 L19,8.7 L18.2,8.7 L18.2,12.2 C18.2,12.4 18.2,12.6 18.3,12.8 C18.4,12.9 18.5,13 18.7,13 L18.7,13 Z M21.1,14.7 L11.4,14.7 C9.9,14.7 8.6,15.9 8.6,17.4 L8.6,19.7 C8.6,21.2 9.9,22.4 11.4,22.4 L21.1,22.4 C22.6,22.4 23.9,21.2 23.9,19.7 L23.9,17.4 C23.9,15.9 22.6,14.7 21.1,14.7 L21.1,14.7 Z M12.8,17 L11.9,17 L11.9,20.6 L11.1,20.6 L11.1,17 L10.2,17 L10.2,16.4 L12.8,16.4 C12.8,16.4 12.8,17 12.8,17 L12.8,17 Z M15.3,20.6 L14.4,20.6 L14.4,20.2 C14.2,20.3 14.1,20.4 13.9,20.5 C13.7,20.6 13.5,20.6 13.4,20.6 C13.2,20.6 13,20.5 12.9,20.4 C12.8,20.3 12.7,20.2 12.7,19.9 L12.7,17.1 L13.6,17.1 L13.6,19.7 C13.6,19.8 13.6,19.8 13.7,19.9 C13.7,19.9 13.8,20 13.9,20 C14,20 14.1,20 14.2,19.9 C14.3,19.9 14.4,19.8 14.5,19.7 L14.5,17.1 L15.4,17.1 C15.3,17.2 15.3,20.6 15.3,20.6 L15.3,20.6 Z M18.7,20 C18.7,20.2 18.6,20.4 18.5,20.5 C18.4,20.6 18.2,20.7 17.9,20.7 C17.7,20.7 17.6,20.7 17.4,20.6 C17.3,20.6 17.1,20.5 17,20.4 L17,20.6 L16.1,20.6 L16.1,16.4 L17,16.4 L17,17.8 C17.1,17.7 17.2,17.6 17.4,17.6 C17.5,17.5 17.7,17.5 17.8,17.5 C18.1,17.5 18.3,17.6 18.4,17.7 C18.5,17.8 18.6,18 18.6,18.3 C18.7,18.2 18.7,20 18.7,20 L18.7,20 Z M22.2,19 L20.5,19 L20.5,19.6 C20.5,19.8 20.5,19.9 20.6,20 C20.7,20.1 20.8,20.1 20.9,20.1 C21,20.1 21.1,20.1 21.2,20 C21.3,19.9 21.3,19.8 21.3,19.6 L21.3,19.5 L22.2,19.5 L22.2,19.7 C22.2,20 22.1,20.3 21.9,20.4 C21.7,20.6 21.4,20.7 20.9,20.7 C20.5,20.7 20.2,20.6 20,20.4 C19.8,20.2 19.7,20 19.7,19.7 L19.7,18.2 C19.7,17.9 19.8,17.7 20.1,17.5 C20.3,17.3 20.7,17.2 21,17.2 C21.4,17.2 21.7,17.3 21.9,17.4 C22.1,17.6 22.2,17.8 22.2,18.1 L22.2,19 L22.2,19 Z M12.3,13 L13.3,13 L13.3,10.5 L14.5,7 L13.5,7 L12.9,9.4 L12.8,9.4 L12.1,7 L11.1,7 L12.3,10.6 C12.3,10.6 12.3,13 12.3,13 L12.3,13 Z M17.5,18 L17.3,18 L17.1,18.1 L17.1,20 C17.2,20.1 17.2,20.1 17.3,20.1 L17.5,20.1 C17.6,20.1 17.7,20.1 17.7,20 C17.8,20 17.8,19.9 17.8,19.8 L17.8,18.2 C17.8,18.1 17.8,18 17.7,18 L17.5,18 L17.5,18 Z" id="Shape" fill="#FFFFFF"></path>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 223 281"
+	 enable-background="new 0 0 223 281" xml:space="preserve">
+<title>teleport 2</title>
+<desc>Created with Sketch.</desc>
+<path id="Shape" sketch:type="MSShapeGroup" fill="#D1D3D4" stroke="#E6E7E8" stroke-width="2" d="M91.8,112.4l54.3-20.9"/>
+<path id="Shape_1_" sketch:type="MSShapeGroup" fill="#D1D3D4" stroke="#E6E7E8" stroke-width="2" d="M151.8,70.4L122.7,35"/>
+<path id="Shape_2_" sketch:type="MSShapeGroup" fill="#D1D3D4" stroke="#E6E7E8" stroke-width="2" d="M88.7,130.4l32.1,25.5"/>
+<path id="Shape_3_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M48.9,152.8c-0.2,0-0.3,0-0.3,0.1c-0.1,0.1-0.1,0.2-0.1,0.3v0.4
+	h0.9v-0.4c0-0.2,0-0.3-0.1-0.3C49.2,152.9,49.1,152.8,48.9,152.8L48.9,152.8z"/>
+<g>
+	<path id="Shape_4_" sketch:type="MSShapeGroup" fill="#FCD977" d="M138.7,217.1h-37.2l-6.6-5.5H84c-2.4,0-4.4,2-4.4,4.4v19.7
+		c0,2.4,2,4.4,4.4,4.4h54.7c2.4,0,4.4-2,4.4-4.4v-14.2C143.1,219,141.2,217.1,138.7,217.1L138.7,217.1z"/>
+</g>
+<linearGradient id="Shape_5_" gradientUnits="userSpaceOnUse" x1="-192.6293" y1="535.8707" x2="-192.6293" y2="534.8707" gradientTransform="matrix(222.8 0 0 -225.8 43029.1992 120999.6016)">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.3"/>
+	<stop  offset="0.2295" style="stop-color:#FCFEFF;stop-opacity:0.2771"/>
+	<stop  offset="0.3728" style="stop-color:#F4FBFD;stop-opacity:0.2627"/>
+	<stop  offset="0.4925" style="stop-color:#E5F5FB;stop-opacity:0.2507"/>
+	<stop  offset="0.5993" style="stop-color:#D1EDF9;stop-opacity:0.2401"/>
+	<stop  offset="0.6974" style="stop-color:#B6E2F5;stop-opacity:0.2303"/>
+	<stop  offset="0.7892" style="stop-color:#95D5F0;stop-opacity:0.2211"/>
+	<stop  offset="0.8761" style="stop-color:#6EC6EB;stop-opacity:0.2124"/>
+	<stop  offset="0.957" style="stop-color:#42B5E5;stop-opacity:0.2043"/>
+	<stop  offset="1" style="stop-color:#27AAE1;stop-opacity:0.2"/>
+</linearGradient>
+<path id="Shape_6_" sketch:type="MSShapeGroup" fill="url(#Shape_5_)" d="M147.5,225.8H75.3L0,0h222.8L147.5,225.8z"/>
+<path id="Shape_7_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M74.2,222.5h74.3l-3.3,15.3H77.5L74.2,222.5L74.2,222.5z"/>
+<path id="Shape_8_" sketch:type="MSShapeGroup" fill="#EBEEEE" d="M75.3,225.8h72.2v15.3H75.3V225.8L75.3,225.8z"/>
+<path id="Shape_9_" sketch:type="MSShapeGroup" fill="#EFC84A" d="M74.2,229.1h74.4c2.4,0,4.4,2,4.4,4.4l-5.5,42.7
+	c0,2.4-2,4.4-4.4,4.4H79.7c-2.4,0-4.4-2-4.4-4.4l-5.5-42.7C69.8,231.1,71.8,229.1,74.2,229.1L74.2,229.1z"/>
+<path id="Shape_10_" sketch:type="MSShapeGroup" fill="#D8B442" d="M111.4,236.7c-9.7,0-17.5,7.8-17.5,17.5s7.8,17.5,17.5,17.5
+	s17.5-7.8,17.5-17.5S121.1,236.7,111.4,236.7L111.4,236.7z M111.4,268.5c-7.9,0-14.2-6.4-14.2-14.2c0-7.9,6.4-14.2,14.2-14.2
+	s14.2,6.4,14.2,14.2S119.2,268.5,111.4,268.5L111.4,268.5z M112.5,247.3c-0.6-1-1.6-1-2.2,0l-6.3,6.3c-0.6,1-0.1,1.8,1.1,1.8h3v5.5
+	c0,0.6,0.5,1.1,1.1,1.1h4.4c0.6,0,1.1-0.5,1.1-1.1v-5.5h3c1.2,0,1.7-0.8,1.1-1.8L112.5,247.3L112.5,247.3z"/>
+<g id="Dropbox" transform="translate(116.000000, 148.000000)" sketch:type="MSShapeGroup">
+	<path id="Shape_11_" fill="#3498DB" fill-opacity="0.5" d="M18.1,0.5C28,0.5,36,8.5,36,18.4s-8,17.9-17.9,17.9s-17.9-8-17.9-17.9
+		S8.2,0.5,18.1,0.5L18.1,0.5z"/>
+	<path id="Shape_12_" fill="#FFFFFF" d="M18.1,1.5c9.4,0,17,7.6,17,17s-7.6,17-17,17s-17-7.6-17-17C1.2,9,8.7,1.5,18.1,1.5L18.1,1.5
+		z"/>
+	<path id="Shape_13_" fill="#3498DB" d="M18.1,2.4c8.8,0,16,7.2,16,16s-7.2,16-16,16s-16-7.2-16-16S9.3,2.4,18.1,2.4L18.1,2.4z"/>
+	<path id="Shape_14_" fill="#FFFFFF" d="M8.1,19.4l5.9,3.7l4.1-3.3l-5.9-3.5L8.1,19.4L8.1,19.4z M14,9.4l-5.9,3.7l4.1,3.1l5.9-3.5
+		L14,9.4L14,9.4z M28.1,13.1l-5.9-3.7l-4.1,3.3l5.9,3.5C24,16.3,28.1,13.1,28.1,13.1L28.1,13.1z M18.1,19.8l4.1,3.3l5.9-3.7L24,16.3
+		L18.1,19.8L18.1,19.8z M18.1,22.4l-4.2,2.9l-1.8-1v2.1l6,3l6-3v-2.1l-1.8,1L18.1,22.4L18.1,22.4z"/>
+</g>
+<g id="Soundcloud">
+	<path id="Shape_15_" fill="#E67E22" fill-opacity="0.5" d="M74.1,99.6c10.6,0,19.2,8.6,19.2,19.2c0,10.6-8.6,19.2-19.2,19.2
+		S55,129.4,55,118.8C55,108.2,63.5,99.6,74.1,99.6L74.1,99.6z"/>
+	<path id="Shape_16_" fill="#FFFFFF" d="M74.1,100.7c10,0,18.1,8.1,18.1,18.1s-8.1,18.1-18.1,18.1S56,128.8,56,118.8
+		S64.1,100.7,74.1,100.7L74.1,100.7z"/>
+	<path fill="#E67E22" d="M74.1,101.7c9.5,0,17.1,7.7,17.1,17.1c0,9.5-7.7,17.1-17.1,17.1S57,128.3,57,118.8
+		C57,109.4,64.7,101.7,74.1,101.7L74.1,101.7z"/>
+	<path id="Soundcloud_logo" fill="#FFFFFF" d="M66.5,124h1.9v-12c-0.7,0.2-1.4,0.6-1.9,1.1C66.5,113,66.5,124,66.5,124z M62.7,115.8
+		v8.1l0.1,0h1.8v-8.1h-1.8C62.8,115.8,62.7,115.8,62.7,115.8z M58.8,119.9c0,1.5,0.8,2.8,1.9,3.5v-6.9
+		C59.6,117.1,58.8,118.4,58.8,119.9z M70.3,124h1.9v-11.5c-0.6-0.4-1.2-0.6-1.9-0.7C70.3,111.8,70.3,124,70.3,124z M85.4,115.8h-1.1
+		c0.1-0.3,0.1-0.7,0.1-1c0-3.4-2.6-6.1-5.9-6.1c-1.8,0-3.3,0.8-4.4,2.1V124h11.3c2.2,0,3.9-1.8,3.9-4.1
+		C89.4,117.6,87.6,115.8,85.4,115.8z"/>
+</g>
+<g id="Vimeo">
+	<circle id="Oval" fill="#2ECC71" fill-opacity="0.5" cx="163.6" cy="84.8" r="19.5"/>
+	<circle id="Oval_1_" fill="#FFFFFF" cx="163.6" cy="84.8" r="18.5"/>
+	<circle id="Oval_2_" fill="#2ECC71" cx="163.6" cy="84.8" r="17.5"/>
+	<path id="Vimeo-logo" fill="#FFFFFF" d="M152.2,80c2-1.6,4.9-5.1,7-5.1c2.3,0,2.8,2.6,3,5c0.3,2.4,1.1,7.6,2.4,7.6
+		c1.1,0,3.9-4.6,3.8-6.4c-0.1-1.8-2.1-1.5-3.1-1c1-3.5,3.3-5.4,6.1-5.4c2.9,0,3.6,2,3.6,4.5c0,3.9-7.8,15.5-12.4,15.5
+		c-2.9,0-3.6-4.3-4.3-6.4c-0.6-2.1-1.8-7.6-3.1-8c-0.5-0.1-2,1.1-2,1.1L152.2,80L152.2,80z"/>
+</g>
+<g id="Youtube" transform="translate(97.000000, 8.000000)" sketch:type="MSShapeGroup">
+	<path id="Shape_18_" fill="#D35400" fill-opacity="0.5" d="M16.2,0.3c8.4,0,15.3,6.8,15.3,15.3s-6.8,15.3-15.3,15.3
+		S0.9,24,0.9,15.5S7.8,0.3,16.2,0.3L16.2,0.3z"/>
+	<path id="Shape_19_" fill="#FFFFFF" d="M16.2,1.1c8,0,14.5,6.5,14.5,14.5S24.2,30,16.2,30S1.7,23.5,1.7,15.5S8.2,1.1,16.2,1.1
+		L16.2,1.1z"/>
+	<path id="Shape_20_" fill="#D35400" d="M16.2,1.9c7.5,0,13.6,6.1,13.6,13.6s-6.1,13.6-13.6,13.6S2.6,23,2.6,15.5S8.7,1.9,16.2,1.9
+		L16.2,1.9z"/>
+	<path id="Shape_21_" fill="#FFFFFF" d="M15.9,13c0.4,0,0.8-0.1,1-0.3c0.2-0.2,0.4-0.5,0.4-0.8V9.8c0-0.3-0.1-0.6-0.4-0.7
+		c-0.3-0.2-0.6-0.3-1-0.3s-0.8,0.1-1,0.3c-0.3,0.2-0.4,0.4-0.4,0.7v2.1c0,0.3,0.1,0.6,0.4,0.8C15.1,12.8,15.4,13,15.9,13L15.9,13z
+		 M15.4,9.8c0-0.1,0-0.1,0.1-0.2c0.1,0,0.2-0.1,0.3-0.1c0.1,0,0.3,0,0.3,0.1c0.1,0.1,0.1,0.1,0.1,0.2v2c0,0.1,0,0.2-0.1,0.2
+		c-0.1,0.1-0.2,0.1-0.3,0.1c-0.1,0-0.2,0-0.3-0.1s-0.1-0.1-0.1-0.2V9.8L15.4,9.8z M18.7,13c0.2,0,0.3-0.1,0.5-0.2
+		c0.2-0.1,0.3-0.2,0.5-0.4v0.5h0.8V8.8h-0.8v3.1c-0.1,0.1-0.2,0.2-0.2,0.2c-0.1,0.1-0.2,0.1-0.2,0.1c-0.1,0-0.1,0-0.2-0.1
+		c0,0-0.1-0.1-0.1-0.2V8.7h-0.8v3.5c0,0.2,0,0.4,0.1,0.6C18.4,12.9,18.5,13,18.7,13L18.7,13z M21.1,14.7h-9.7
+		c-1.5,0-2.8,1.2-2.8,2.7v2.3c0,1.5,1.3,2.7,2.8,2.7h9.7c1.5,0,2.8-1.2,2.8-2.7v-2.3C23.9,15.9,22.6,14.7,21.1,14.7L21.1,14.7z
+		 M12.8,17h-0.9v3.6h-0.8V17h-0.9v-0.6h2.6V17L12.8,17z M15.3,20.6h-0.9v-0.4c-0.2,0.1-0.3,0.2-0.5,0.3c-0.2,0.1-0.4,0.1-0.5,0.1
+		c-0.2,0-0.4-0.1-0.5-0.2c-0.1-0.1-0.2-0.2-0.2-0.5v-2.8h0.9v2.6c0,0.1,0,0.1,0.1,0.2c0,0,0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.3-0.1
+		c0.1,0,0.2-0.1,0.3-0.2v-2.6h0.9C15.3,17.2,15.3,20.6,15.3,20.6L15.3,20.6z M18.7,20c0,0.2-0.1,0.4-0.2,0.5s-0.3,0.2-0.6,0.2
+		c-0.2,0-0.3,0-0.5-0.1c-0.1,0-0.3-0.1-0.4-0.2v0.2h-0.9v-4.2H17v1.4c0.1-0.1,0.2-0.2,0.4-0.2c0.1-0.1,0.3-0.1,0.4-0.1
+		c0.3,0,0.5,0.1,0.6,0.2c0.1,0.1,0.2,0.3,0.2,0.6C18.7,18.2,18.7,20,18.7,20L18.7,20z M22.2,19h-1.7v0.6c0,0.2,0,0.3,0.1,0.4
+		s0.2,0.1,0.3,0.1s0.2,0,0.3-0.1c0.1-0.1,0.1-0.2,0.1-0.4v-0.1h0.9v0.2c0,0.3-0.1,0.6-0.3,0.7c-0.2,0.2-0.5,0.3-1,0.3
+		c-0.4,0-0.7-0.1-0.9-0.3c-0.2-0.2-0.3-0.4-0.3-0.7v-1.5c0-0.3,0.1-0.5,0.4-0.7c0.2-0.2,0.6-0.3,0.9-0.3c0.4,0,0.7,0.1,0.9,0.2
+		c0.2,0.2,0.3,0.4,0.3,0.7V19L22.2,19z M12.3,13h1v-2.5L14.5,7h-1l-0.6,2.4h-0.1L12.1,7h-1l1.2,3.6V13L12.3,13z M17.5,18h-0.2
+		l-0.2,0.1V20c0.1,0.1,0.1,0.1,0.2,0.1h0.2c0.1,0,0.2,0,0.2-0.1c0.1,0,0.1-0.1,0.1-0.2v-1.6c0-0.1,0-0.2-0.1-0.2H17.5L17.5,18z"/>
+</g>
 </svg>
