@@ -8588,6 +8588,45 @@ display: table-cell;
 vertical-align: middle;
 }
 
+input::-webkit-input-placeholder {
+    color: #aaa;
+    -webkit-transition: color 0.2s linear 0s;
+}
+input:focus::-webkit-input-placeholder {
+    color: #e5e5e5;
+    -webkit-transition: color 0.2s linear 0s;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: #aaa;
+    -moz-transition: color 0.25s linear 0s;
+}
+input:focus:-moz-placeholder {
+    color: #e5e5e5;
+    -moz-transition: color 0.25s linear 0s;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    color: #aaa;
+    -moz-transition: color 0.25s linear 0s;
+}
+input:focus::-moz-placeholder {
+    color: #e5e5e5;
+    -moz-transition: color 0.25s linear 0s;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+    color: #aaa;
+    transition: color 0.25s linear 0s;
+}
+input:focus:-ms-input-placeholder {
+    color: #e5e5e5;
+    transition: color 0.25s linear 0s;
+}
+
 /* @@@@@@@@ Add new button style for input adding file url @@@@@@@@ 
 
 .input-group-btn .btn-green {
