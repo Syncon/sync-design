@@ -1,46 +1,4 @@
 @font-face {
-  font-family: 'Lato';
-  src: url(/assets/lato/lato-black.eot);
-  src: url(/assets/lato/lato-black.eot?#iefix) format('embedded-opentype'), url(/assets/lato/lato-black.woff) format('woff'), url(/assets/lato/lato-black.ttf) format('truetype'), url(/assets/lato/lato-black.svg#latoblack) format('svg');
-  font-weight: 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url(/assets/lato/lato-bold.eot);
-  src: url(/assets/lato/lato-bold.eot?#iefix) format('embedded-opentype'), url(/assets/lato/lato-bold.woff) format('woff'), url(/assets/lato/lato-bold.ttf) format('truetype'), url(/assets/lato/lato-bold.svg#latobold) format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url(/assets/lato/lato-bolditalic.eot);
-  src: url(/assets/lato/lato-bolditalic.eot?#iefix) format('embedded-opentype'), url(/assets/lato/lato-bolditalic.woff) format('woff'), url(/assets/lato/lato-bolditalic.ttf) format('truetype'), url(/assets/lato/lato-bolditalic.svg#latobold-italic) format('svg');
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url(/assets/lato/lato-italic.eot);
-  src: url(/assets/lato/lato-italic.eot?#iefix) format('embedded-opentype'), url(/assets/lato/lato-italic.woff) format('woff'), url(/assets/lato/lato-italic.ttf) format('truetype'), url(/assets/lato/lato-italic.svg#latoitalic) format('svg');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url(/assets/lato/lato-light.eot);
-  src: url(/assets/lato/lato-light.eot?#iefix) format('embedded-opentype'), url(/assets/lato/lato-light.woff) format('woff'), url(/assets/lato/lato-light.ttf) format('truetype'), url(/assets/lato/lato-light.svg#latolight) format('svg');
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Lato';
-  src: url(/assets/lato/lato-regular.eot);
-  src: url(/assets/lato/lato-regular.eot?#iefix) format('embedded-opentype'), url(/assets/lato/lato-regular.woff) format('woff'), url(/assets/lato/lato-regular.ttf) format('truetype'), url(/assets/lato/lato-regular.svg#latoregular) format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: 'Flat-UI-Pro-Icons';
   src: url(/libs/assets/flat-ui-pro-icons-regular.eot);
   src: url(/libs/assets/flat-ui-pro-icons-regular.eot?#iefix) format('embedded-opentype'), url(/libs/assets/flat-ui-pro-icons-regular.woff) format('woff'), url(/libs/assets/flat-ui-pro-icons-regular.ttf) format('truetype'), url(/libs/assets/flat-ui-pro-icons-regular.svg#flat-ui-pro-icons-regular) format('svg');
@@ -353,6 +311,10 @@ body {
   line-height: 1.72222;
   color: #34495e;
   background-color: #ffffff;
+  
+   min-width:565px; /* suppose you want minimun width of 565px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width:565px;             /* As IE ignores !important it will set width as 565px; */
 }
 a {
   color: #16a085;
@@ -4667,7 +4629,7 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
   .table > thead > tr > td,
   .table > tbody > tr > td,
   .table > tfoot > tr > td {
-    padding: 9px 25px;
+    padding: 9px 10px;
   }
 }
 .table > thead > tr > th,
