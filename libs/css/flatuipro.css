@@ -8589,49 +8589,4 @@ input:focus:-ms-input-placeholder {
     transition: color 0.25s linear 0s;
 }
 
-/* @@@@@@@@ Add new button style for input adding file url @@@@@@@@ 
 
-.input-group-btn .btn-green {
-  color: #ffffff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
-}
-
-.input-group-btn .btn-green:hover,
-.input-group-btn .btn-green.hover,
-.input-group-btn .btn-green:focus,
-.input-group-btn .btn-green:active,
-.input-group-btn .btn-green.active,
-.input-group-btn .open > .dropdown-toggle.btn-green {
-  color: #ffffff;
-  background-color: #48c9b0;
-  border-color: #48c9b0;
-}
-.btn-green:active,
-.btn-green.active,
-.open > .dropdown-toggle.btn-green {
-  background: #16a085;
-  border-color: #16a085;
-}
-.btn-green.disabled,
-.btn-green[disabled],
-fieldset[disabled] .btn-green,
-.btn-green.disabled:hover,
-.btn-green[disabled]:hover,
-fieldset[disabled] .btn-green:hover,
-.btn-green.disabled.hover,
-.btn-green[disabled].hover,
-fieldset[disabled] .btn-green.hover,
-.btn-green.disabled:focus,
-.btn-green[disabled]:focus,
-fieldset[disabled] .btn-green:focus,
-.btn-green.disabled:active,
-.btn-green[disabled]:active,
-fieldset[disabled] .btn-green:active,
-.btn-green.disabled.active,
-.btn-green[disabled].active,
-fieldset[disabled] .btn-green.active {
-  background-color: #bdc3c7;
-  border-color: #1abc9c;
-}
-*/
