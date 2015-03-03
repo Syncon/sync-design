@@ -8503,6 +8503,58 @@ input.todo-search-field::-webkit-input-placeholder {
 
 /* @@@@@@ Additional styles added by Alexandr @@@@@@ */
 
+/* Add switch functionality */
+
+input.checkswitch {
+  display: block;
+  opacity: 0;
+}
+label.checkswitch {
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  background: rgb(189, 189, 189);
+  border-radius: 30px;
+  
+  transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -webkit-transition: background-color 0.4s;
+}
+label.checkswitch:after {
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  content: '';
+  position: absolute;
+  background: #FFF;
+  border-radius: 10px;
+}
+input.checkswitch:checked + label {
+  background: rgb(39, 173, 95);
+}
+input.checkswitch:checked + label:after {
+  left: auto;
+  right: 0;
+}
+
+.check-state {
+  font: normal 8px/40px Arial;
+  color: rgb(189, 189, 189);
+  display: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+input.checkswitch:checked ~ div:nth-of-type(1) {
+  color: rgb(39, 173, 95);
+  display: block;
+}
+input.checkswitch:not(:checked) ~ div:nth-of-type(2) {
+  display: block;
+}
+
 /* Centers blocks vertically */
 .vcenter {
     display: inline-block;
@@ -8618,4 +8670,11 @@ input:focus:-ms-input-placeholder {
     transition: color 0.25s linear 0s;
 }
 
+.vert {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
