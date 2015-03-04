@@ -8670,6 +8670,8 @@ input:focus:-ms-input-placeholder {
     transition: color 0.25s linear 0s;
 }
 
+/* Vertical alignment */
+
 .vert {
   position: relative;
   top: 50%;
@@ -8678,3 +8680,23 @@ input:focus:-ms-input-placeholder {
   transform: translateY(-50%);
 }
 
+/* Show content on hover */
+
+.hover-group .div-wrapper {
+  /* We need this to make the .hover-toggle div relative to .div-wrapper */
+  position: relative;
+}
+
+.hover-group .div-wrapper .hover-toggle {
+  /* set it at the bottom of .div-wrapper */
+  position: absolute;      
+  bottom: 4px;
+  left: 0px;
+  /* and don't display it */
+  display: none;
+}
+
+.hover-group .div-wrapper:hover .hover-toggle {
+  /* only display it when .div-wrapper is being hovered on */
+  display: block;
+}
