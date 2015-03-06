@@ -420,9 +420,10 @@ h6,
   font-size: 24px;
 }
 p {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 200;
   line-height: 1.72222;
-  margin: 0 0 15px;
+  margin: 0 0 0px;
 }
 .lead {
   margin-bottom: 30px;
@@ -437,7 +438,8 @@ p {
 }
 small,
 .small {
-  font-size: 83%;
+  font-size: 12px;
+  font-weight: 200;
   line-height: 2.067;
 }
 .text-muted {
@@ -2512,12 +2514,13 @@ fieldset[disabled] .twitter-typeahead .tt-hint {
 .progress {
   background: #ebedef;
   border-radius: 32px;
-  height: 12px;
+  height: 6px;
   box-shadow: none;
+  margin-bottom: 0px
 }
 .progress-bar {
   background: #1abc9c;
-  line-height: 12px;
+  line-height: 6px;
   box-shadow: none;
 }
 .progress-bar-success {
@@ -5094,7 +5097,7 @@ a.list-group-item > .badge,
 .active .bottom-menu a,
 .bottom-menu a:hover,
 .bottom-menu a:focus {
-  color: #1abc9c;
+  color: #5dade2;
 }
 .bottom-menu .label,
 .bottom-menu .badge {
@@ -8564,7 +8567,7 @@ input.checkswitch:not(:checked) ~ div:nth-of-type(2) {
 
 /* Header for content block */
 .top-header {
-  border-top-width: 2px;
+  border-bottom-width: 1px;
   border-bottom-style: solid;
   font-size: 16px;
   margin-bottom: 20px;
@@ -8680,6 +8683,7 @@ input:focus:-ms-input-placeholder {
   transform: translateY(-50%);
 }
 
+
 /* Show content on hover */
 
 .hover-group .div-wrapper {
@@ -8692,6 +8696,9 @@ input:focus:-ms-input-placeholder {
   position: absolute;      
   bottom: 4px;
   left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(226,226,226,0.5);
   /* and don't display it */
   display: none;
 }
@@ -8699,4 +8706,17 @@ input:focus:-ms-input-placeholder {
 .hover-group .div-wrapper:hover .hover-toggle {
   /* only display it when .div-wrapper is being hovered on */
   display: block;
+}
+
+/* Add vertical space */
+
+.spacer {
+  margin-top: 40px;
+}
+.height40 {
+  height: 40px;
+}
+
+.height60 {
+  height: 60px; 
 }
