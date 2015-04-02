@@ -1,89 +1,166 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <link data-turbolinks-track="true" href="./libs/css/flatuipro.css?body=1" media="all" rel="stylesheet">
-  <script data-turbolinks-track="true" src="./libs/js/jquery.js"></script><style type="text/css">
-</style>
-</head>
-<body>
-<div class="container">
-<nav class="navbar navbar-default" role="navigation">
-  <div class="row">
-    <div class="col-xs-1 vcenter">
-        <img alt="Cloud" src="./libs/img/cloud-100.png">
-    </div><!--
-  --><div class="col-xs-2 vcenter">
-        <a class="navbar-brand pull-right" href="#">Syncapp</a>
-      </div><!--
-    --><div class="col-xs-8 vcenter">
-        <ul class="nav navbar-nav pull-right">
-          <li class="active"><a href="#fakelink">Home</a></li>
-          <li><a href="#fakelink">Features</a></li>
-          <li><a href="#fakelink">Pricing</a></li>
-          <li><a href="#fakelink">Sign Up</a></li>
-        </ul>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=565, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="./libs/css/flatuipro.css" media="all" rel="stylesheet">
+  </head>
+  <body>
+
+                    <!-- ##################### HEADER MENU START ##################### -->
+
+    <div class="container">
+      <nav class="navbar navbar-default" role="navigation" style="background-color: #ffffff">
+        <div class="row">
+          <div class="col-xs-3 vcenter">
+            <img alt="Cloud" src="./libs/img/logo1.svg">
+          </div><!--
+          --><div class="col-xs-8 vcenter">
+            <div class="dropdown visible-xs pull-right">
+              <div class="btn-group">
+                <button class="btn btn-info">Dropdown</button>
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li class="active"><a href="#fakelink">Sub Menu Element</a></li>
+                  <li><a href="#fakelink">Sub Menu Element</a></li>
+                  <li><a href="#fakelink">Sub Menu Element</a></li>
+                </ul>
+              </div>
+            </div>
+            <ul class="nav navbar-nav pull-right hidden-xs">
+              <li class="active"><a href="#fakelink">Home</a></li>
+              <li><a href="#fakelink">Features</a></li>
+              <li><a href="#fakelink">Pricing</a></li>
+              <li><a href="#fakelink">Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+                    <!-- ##################### HEADER MENU END ##################### -->
+
+                    <!-- ##################### MAIN CONTENT START ##################### -->
+
+    <div class="container">
+    <div class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title">Registration page</h3></div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+        <div class="dialog dialog-warning alert-addmargin">
+          <span class="fui-alert-circle"></span>
+          Warning message. Please take a look and fix errors
+        </div>
+        <div class="dialog dialog-success alert-addmargin">
+          <span class="fui-check-circle"></span>
+          Well done! You're the lucky one, congratulations
+        </div>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 botmargin20 text-center">
+          <h5>Please register here</h5>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 botmargin20">
+          <div class="input-group">
+              <span class="input-group-addon"><span class="fui-mail"></span></span>
+              <input class="form-control" type="text" placeholder="Email address" data-toggle="popover" data-content="Popover">
+            </div>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 botmargin20">
+          <div class="input-group">
+              <span class="input-group-addon"><img alt="Key" src="./libs/img/icons/key.svg" width="16px"></span>
+              <input class="form-control" type="text" placeholder="Password">
+            </div>
+        </div>
+        <div class="col-xs-2 col-xs-offset-5 botmargin20">
+          <a href="#fakelink" class="btn btn-lg btn-block btn-info">Register</a>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 top-header"></div>
+        <div class="col-xs-4 col-xs-offset-4 text-center">
+          <p>Have an account? <a href="#">Log in</a></p>
+        </div>
+        </div>
       </div>
-</nav>
-</div>
-<div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h3 class="text-center">
-        Sign up here for your free account
-        </h3>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading"><h3 class="panel-title">Login page</h3></div>
+        <div class="panel-body">
+        <div class="row">
+        <div class="col-xs-4 col-xs-offset-4 botmargin20 text-center">
+          <h5>Syncon.me</h5>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 botmargin20">
+          <div class="input-group">
+              <span class="input-group-addon"><span class="fui-mail"></span></span>
+              <input class="form-control" type="text" placeholder="Email address" data-toggle="popover" data-content="Popover">
+            </div>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4">
+          <div class="input-group">
+              <span class="input-group-addon"><img alt="Key" src="./libs/img/icons/key.svg" width="16px"></span>
+              <input class="form-control" type="text" placeholder="Password">
+            </div>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 botmargin20 text-right">
+          <p><a href="#">Forgot?</a></p>
+        </div>
+        <div class="col-xs-2 col-xs-offset-5 botmargin20">
+          <a href="#fakelink" class="btn btn-lg btn-block btn-info">Sign in</a>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 top-header"></div>
+        <div class="col-xs-4 col-xs-offset-4 text-center">
+          <p><a href="#">Register</a></p>
+        </div>
+        </div>
+      </div>
+        </div>
+
+      <div class="panel panel-default">
+      <div class="panel-heading"><h3 class="panel-title">Login page</h3></div>
+        <div class="panel-body">
+        <div class="row">
+        <div class="col-xs-4 col-xs-offset-4 botmargin20 text-center">
+          <h5>Remind password</h5>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 botmargin20 text-center">
+          <p>Enter the email address you used when registered and we will send reset instructions</p>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 botmargin20">
+          <div class="input-group">
+              <span class="input-group-addon"><span class="fui-mail"></span></span>
+              <input class="form-control" type="text" placeholder="Email address" data-toggle="popover" data-content="Popover">
+            </div>
+        </div>
+        <div class="col-xs-2 col-xs-offset-5 botmargin20">
+          <a href="#fakelink" class="btn btn-lg btn-block btn-info">Submit</a>
+        </div>
+        <div class="col-xs-4 col-xs-offset-4 top-header"></div>
+        <div class="col-xs-4 col-xs-offset-4 text-center">
+          <p>Still having issues? <a href="#">Contact us</a></p>
+        </div>
+        </div>
+      </div>
+        </div>
+
       </div>
     </div>
-<div class="alert alert-warning">
-  <button type="button" class="close fui-cross" data-dismiss="alert"></button>
-  Your computer restarted <a href="#fakelink">because of a problem</a>. Sorry for any inconvenience and appreciate your patient.
-</div>
 
-<div class="alert alert-info">
-  <button type="button" class="close fui-cross" data-dismiss="alert"></button>
-  Your computer successfully restarted! Congratulations!
-</div>
+                    <!-- ##################### MAIN CONTENT END ##################### -->
 
-<div class="row">
-  <div class="col-sm-1 col-sm-offset-4">
-    <img src="./libs/img/new_user.png" width="200" height="200" alt="User" style="margin-left: 45px">
-  </div>
-</div>
+                    <!-- ##################### BOTTOM MENU START ##################### -->
 
-<div class="row">
-  <div class="col-sm-4 col-sm-offset-4">
-<form class="form-horizontal" role="form">
-  <div class="form-group">
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-10">
-        <label class="checkbox">
-          <input type="checkbox" value="" data-toggle="checkbox" class="custom-checkbox">
-          <span class="icons"><span class="icon-unchecked"></span><span class="icon-checked"></span></span>
-          Remember me
-        </label>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-10 col-sm-offset-2">
-      <button type="submit" class="btn btn-lg btn-block btn-primary" style="width: 150px">Sign in</button>
-    </div>
-  </div>
-</form>
-</div>
-</div>
-</div>
-
-<div class="bottom-menu" style="margin-top: 50px">
+    <div class="bottom-menu">
       <div class="container">
         <div class="row">
           <div class="col-md-2 col-sm-2">
@@ -106,5 +183,8 @@
         </div>
       </div>
     </div>
-</body>
+
+                    <!-- ##################### BOTTOM MENU END ##################### -->
+
+  </body>
 </html>
